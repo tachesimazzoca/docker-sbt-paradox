@@ -1,6 +1,6 @@
-FROM tachesimazzoca/sbt-base:latest
+FROM tachesimazzoca/sbt-base:8u181_2.12.6_1.2.3
 
-ARG paradoxVersion
+ARG paradoxVersion="0.3.2"
 
 WORKDIR /tmp/sbt-paradox
 RUN mkdir project && \
